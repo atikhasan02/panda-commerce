@@ -1,8 +1,14 @@
+.carousel-bg{
+    background-color: #fceae8;
+}
 .container{
     margin-bottom: 100px;
 }
-.pink-bg{
-    background-color: #fceae8;
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+color: #ff136f;
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
@@ -10,10 +16,33 @@
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
+    cursor: pointer;
 }
-.price{
-    color: #ff136F;
+.cat1{
+    background-color: orange;
+    
 }
-.carousel-item{
-    padding: 20px 40px;
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.catagories img{
+    width: 130px;
+}
+.catagories h1{
+    color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.contact-us{
+    height: 300px ;
+    background-color: #fceae8;
 }
